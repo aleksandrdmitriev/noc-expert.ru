@@ -384,7 +384,7 @@ li > a:only-child:after {
 /* banner */
 
 .banner {
-	background: url(../images/bg1.jpg) center no-repeat;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/bg1.jpg) center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -451,9 +451,7 @@ li > a:only-child:after {
 
 .feature-list {
     list-style-type: disc;
-    padding-left: 5em;
-    font-size: 0.9em;
-    color: #777;
+    padding-left: 4em;
 }
 
 /* .feature-list li {
@@ -503,7 +501,7 @@ section.agile_stats:before {
     top: 0;
     height: 100%;
     content: '';
-    background: rgba(12, 12, 12, 0.18);
+    background: rgba(12, 12, 12, 0.5);
     z-index: -1;
 }
 
@@ -540,7 +538,8 @@ figure {
 }
 .more-services p {
     /* color: #777; */
-    text-align: left;
+    text-align: justify;
+    text-indent: 3em;
     margin-bottom: 1em;
 }
 .events-up h5 {
