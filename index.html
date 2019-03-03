@@ -75,21 +75,25 @@
 						<p class="text-white mt-2"><a href="http://noc-expert.ru/moodle/login/forgot_password.php">Забыли логин или пароль?</a></p>
 					</div>
 					 <div class="col-md-9 n-right-w3ls">
-						<div class="row">
-							<div class="col-md-4 form-group news-rt">
-								<input class="form-control" type="text" name="Name" placeholder="Логин" required="">
-							</div>
-							<div class="col-md-4 form-group news-lt">
-								<input class="form-control" type="text" name="Password" placeholder="Пароль" required="">
-							</div>
-							<div class="col-md-4 form-group news-last">
-								<div class="sbm-it">
-									<div class="form-group">
-										<input class="form-control submit text-uppercase" type="submit" value="Войти">
+						<!-- <div class="row"> -->
+							<form class="row" action="http://noc-expert.ru/moodle/login/index.php" method="post" id="login">
+								<input id="anchor" type="hidden" name="anchor" value="">
+								<script>document.getElementById('anchor').value = location.hash;</script>
+								<div class="col-md-4 form-group news-rt">
+									<input class="form-control" type="text" name="username" placeholder="Логин" id="username" required="">
+								</div>
+								<div class="col-md-4 form-group news-lt">
+									<input class="form-control" type="password" name="password" placeholder="Пароль" id="password" required="">
+								</div>
+								<div class="col-md-4 form-group news-last">
+									<div class="sbm-it">
+										<div class="form-group">
+											<input class="form-control submit text-uppercase" type="submit" value="Войти">
+										</div>
 									</div>
 								</div>
-							</div>
-						</div>
+							</form>
+						<!-- </div> -->
 					</div>
 				</div>
             </div>
