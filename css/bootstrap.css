@@ -561,6 +561,16 @@ pre code {
   margin-left: auto;
 }
 
+.license {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.license img {
+  width: 250px;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
