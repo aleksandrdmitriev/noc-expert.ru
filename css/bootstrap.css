@@ -571,6 +571,15 @@ pre code {
   width: 250px;
 }
 
+.download {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 120%;
+
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
